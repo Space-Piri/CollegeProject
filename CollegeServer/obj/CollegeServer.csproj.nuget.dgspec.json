@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CollegeProject\\CollegeServer\\CollegeServer.csproj": {}
+    "C:\\Users\\Student-SP4\\Documents\\CollegeProject\\CollegeServer\\CollegeServer.csproj": {}
   },
   "projects": {
-    "E:\\CollegeProject\\CollegeServer\\CollegeServer.csproj": {
+    "C:\\Users\\Student-SP4\\Documents\\CollegeProject\\CollegeServer\\CollegeServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CollegeProject\\CollegeServer\\CollegeServer.csproj",
+        "projectUniqueName": "C:\\Users\\Student-SP4\\Documents\\CollegeProject\\CollegeServer\\CollegeServer.csproj",
         "projectName": "CollegeServer",
-        "projectPath": "E:\\CollegeProject\\CollegeServer\\CollegeServer.csproj",
+        "projectPath": "C:\\Users\\Student-SP4\\Documents\\CollegeProject\\CollegeServer\\CollegeServer.csproj",
         "packagesPath": "C:\\Users\\Student-SP4\\.nuget\\packages\\",
-        "outputPath": "E:\\CollegeProject\\CollegeServer\\obj\\",
+        "outputPath": "C:\\Users\\Student-SP4\\Documents\\CollegeProject\\CollegeServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -59,12 +59,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.14, 5.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -73,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
