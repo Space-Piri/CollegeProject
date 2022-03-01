@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student-SP4\\Documents\\CollegeServer\\CollegeServer.csproj": {}
+    "E:\\CollegeProject\\CollegeServer\\CollegeServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student-SP4\\Documents\\CollegeServer\\CollegeServer.csproj": {
+    "E:\\CollegeProject\\CollegeServer\\CollegeServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student-SP4\\Documents\\CollegeServer\\CollegeServer.csproj",
+        "projectUniqueName": "E:\\CollegeProject\\CollegeServer\\CollegeServer.csproj",
         "projectName": "CollegeServer",
-        "projectPath": "C:\\Users\\Student-SP4\\Documents\\CollegeServer\\CollegeServer.csproj",
+        "projectPath": "E:\\CollegeProject\\CollegeServer\\CollegeServer.csproj",
         "packagesPath": "C:\\Users\\Student-SP4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student-SP4\\Documents\\CollegeServer\\obj\\",
+        "outputPath": "E:\\CollegeProject\\CollegeServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
