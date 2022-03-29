@@ -1,0 +1,107 @@
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\CollegeManager.csproj.AssemblyReference.cache
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\App.g.cs
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\CollegeManager_MarkupCompile.cache
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\CollegeManager_MarkupCompile.lref
+C:\Users\Student-SP4\Documents\CollegeManager\bin\Debug\CollegeManager.exe.config
+C:\Users\Student-SP4\Documents\CollegeManager\bin\Debug\CollegeManager.exe
+C:\Users\Student-SP4\Documents\CollegeManager\bin\Debug\CollegeManager.pdb
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\CollegeManager.g.resources
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\CollegeManager.Properties.Resources.resources
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\CollegeManager.csproj.GenerateResource.cache
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\CollegeManager.csproj.CoreCompileInputs.cache
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\CollegeManager.exe
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\CollegeManager.pdb
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\LoginWindow.g.cs
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\LoginWindow.baml
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\AdminWindow.g.cs
+C:\Users\Student-SP4\Documents\CollegeManager\obj\Debug\AdminWindow.baml
+P:\CollegeProject\CollegeManager\bin\Debug\CollegeManager.exe.config
+P:\CollegeProject\CollegeManager\bin\Debug\CollegeManager.exe
+P:\CollegeProject\CollegeManager\bin\Debug\CollegeManager.pdb
+P:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.AssemblyReference.cache
+P:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.SuggestedBindingRedirects.cache
+P:\CollegeProject\CollegeManager\obj\Debug\AdminWindow.g.cs
+P:\CollegeProject\CollegeManager\obj\Debug\CourseEditor.g.cs
+P:\CollegeProject\CollegeManager\obj\Debug\LoginWindow.g.cs
+P:\CollegeProject\CollegeManager\obj\Debug\App.g.cs
+P:\CollegeProject\CollegeManager\obj\Debug\CollegeManager_MarkupCompile.cache
+P:\CollegeProject\CollegeManager\obj\Debug\CollegeManager_MarkupCompile.lref
+P:\CollegeProject\CollegeManager\obj\Debug\AdminWindow.baml
+P:\CollegeProject\CollegeManager\obj\Debug\CourseEditor.baml
+P:\CollegeProject\CollegeManager\obj\Debug\LoginWindow.baml
+P:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.g.resources
+P:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.Properties.Resources.resources
+P:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.GenerateResource.cache
+P:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.CoreCompileInputs.cache
+P:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.exe
+P:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.pdb
+P:\CollegeProject\CollegeManager\bin\Debug\Newtonsoft.Json.dll
+P:\CollegeProject\CollegeManager\bin\Debug\Newtonsoft.Json.xml
+P:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.CopyComplete
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\bin\Debug\CollegeManager.exe.config
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\bin\Debug\CollegeManager.exe
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\bin\Debug\CollegeManager.pdb
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.AssemblyReference.cache
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.SuggestedBindingRedirects.cache
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\AdminWindow.g.cs
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CourseEditor.g.cs
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\LoginWindow.g.cs
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\App.g.cs
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CollegeManager_MarkupCompile.cache
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CollegeManager_MarkupCompile.lref
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\AdminWindow.baml
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CourseEditor.baml
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\LoginWindow.baml
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CollegeManager.g.resources
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CollegeManager.Properties.Resources.resources
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.GenerateResource.cache
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.CoreCompileInputs.cache
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.CopyComplete
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CollegeManager.exe
+C:\Users\egorp\Desktop\учёба\4 курс 2\CollegeProject\CollegeManager\obj\Debug\CollegeManager.pdb
+E:\CollegeProject\CollegeManager\bin\Debug\CollegeManager.exe.config
+E:\CollegeProject\CollegeManager\bin\Debug\CollegeManager.exe
+E:\CollegeProject\CollegeManager\bin\Debug\CollegeManager.pdb
+E:\CollegeProject\CollegeManager\bin\Debug\Newtonsoft.Json.dll
+E:\CollegeProject\CollegeManager\bin\Debug\Newtonsoft.Json.xml
+E:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.AssemblyReference.cache
+E:\CollegeProject\CollegeManager\obj\Debug\AdminWindow.g.cs
+E:\CollegeProject\CollegeManager\obj\Debug\CourseEditor.g.cs
+E:\CollegeProject\CollegeManager\obj\Debug\LoginWindow.g.cs
+E:\CollegeProject\CollegeManager\obj\Debug\App.g.cs
+E:\CollegeProject\CollegeManager\obj\Debug\CollegeManager_MarkupCompile.cache
+E:\CollegeProject\CollegeManager\obj\Debug\CollegeManager_MarkupCompile.lref
+E:\CollegeProject\CollegeManager\obj\Debug\AdminWindow.baml
+E:\CollegeProject\CollegeManager\obj\Debug\CourseEditor.baml
+E:\CollegeProject\CollegeManager\obj\Debug\LoginWindow.baml
+E:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.g.resources
+E:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.Properties.Resources.resources
+E:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.GenerateResource.cache
+E:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.CoreCompileInputs.cache
+E:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.CopyComplete
+E:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.exe
+E:\CollegeProject\CollegeManager\obj\Debug\CollegeManager.pdb
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\bin\Debug\CollegeManager.exe.config
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\bin\Debug\CollegeManager.exe
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\bin\Debug\CollegeManager.pdb
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.AssemblyReference.cache
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\AdminWindow.g.cs
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CourseEditor.g.cs
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\LoginWindow.g.cs
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\App.g.cs
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager_MarkupCompile.cache
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager_MarkupCompile.lref
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\AdminWindow.baml
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CourseEditor.baml
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\LoginWindow.baml
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager.g.resources
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager.Properties.Resources.resources
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.GenerateResource.cache
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.CoreCompileInputs.cache
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.CopyComplete
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager.exe
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager.pdb
