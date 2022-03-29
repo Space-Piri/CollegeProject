@@ -24,6 +24,31 @@ DBCC CHECKIDENT ('Student', RESEED, 0);
 delete from Users
 DBCC CHECKIDENT ('Users', RESEED, 0);
 
+delete from TeacherCourseTheme
+DBCC CHECKIDENT ('TeacherCourseTheme', RESEED, 0);
+delete from User_Types
+DBCC CHECKIDENT ('User_Types', RESEED, 0);
+delete from Courses
+DBCC CHECKIDENT ('Courses', RESEED, 0);
+delete from TeacherCourse
+DBCC CHECKIDENT ('TeacherCourse', RESEED, 0);
+delete from TeacherDiscipline
+DBCC CHECKIDENT ('TeacherDiscipline', RESEED, 0);
+delete from Teachers
+DBCC CHECKIDENT ('Teachers', RESEED, 0);
+delete from Discipline
+DBCC CHECKIDENT ('Discipline', RESEED, 0);
+delete from Couples
+DBCC CHECKIDENT ('Couples', RESEED, 0);
+delete from Specialty
+DBCC CHECKIDENT ('Specialty', RESEED, 0);
+delete from Groups
+DBCC CHECKIDENT ('Groups', RESEED, 0);
+delete from Student
+DBCC CHECKIDENT ('Student', RESEED, 0);
+delete from Users
+DBCC CHECKIDENT ('Users', RESEED, 0);
+
 insert into User_Types values ('Admin')
 insert into User_Types values ('User')
 insert into User_Types values ('Teacher')
