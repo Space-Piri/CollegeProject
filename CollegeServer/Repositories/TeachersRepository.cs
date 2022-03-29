@@ -15,11 +15,12 @@ namespace CollegeServer.Repositories
             cn.Open();
             SqlCommand cmd = new SqlCommand("select * from Teachers where Id  = " + Id, cn);
             var reader = cmd.ExecuteReader();
-            Teachers teacherS = null;
+            Teachers teacher = null;
             while (reader.Read())
             {
-                teacherS = new
+                teacher = new Teachers(Convert.ToInt32(reader["Id"]), UserRepository.GetUserById(Convert.ToInt32(reader["Id_User"])));
             }
+            return teacher;
         }
     }
 }

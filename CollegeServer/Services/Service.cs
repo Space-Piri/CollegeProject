@@ -2,6 +2,6 @@
 {
     public class Service
     {
-        public static string ConnectionString = "";
+        public static string ConnectionString = "Data Source=localhost\\SQLEXPRESS01;Initial Catalog=CurseMenager; Integrated Security=true";
     }
 }
