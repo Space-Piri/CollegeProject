@@ -158,16 +158,17 @@
                         <Border BorderThickness="1" BorderBrush="Black" Margin="5" CornerRadius="3">
                             <StackPanel>
                                 <Label Content="Понедельник" Margin="5"/>
+                                <ComboBox Margin="5,-5,5,5"/>
                                 <Border BorderBrush="Gray" BorderThickness="1" Margin="5,0,5,5" CornerRadius="5">
                                     <StackPanel>
                                         <Label Content="1 урок 8:20 - 9:05" Margin="5,0,5,0"/>
-                                        <ComboBox Width="160" Margin="5,0,5,5"/>
+                                        <TextBlock Width="160" Margin="5,0,5,5"/>
                                     </StackPanel>
                                 </Border>
                                 <Border BorderBrush="Gray" BorderThickness="1" Margin="5,0,5,5" CornerRadius="5">
                                     <StackPanel>
                                         <Label Content="2 урок 9:15 - 10:00" Margin="5,0,5,0"/>
-                                        <ComboBox Width="160" Margin="5,0,5,5"/>
+                                        <TextBlock Width="160" Margin="5,0,5,5"/>
                                     </StackPanel>
                                 </Border>
                             </StackPanel>

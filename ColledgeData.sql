@@ -23,6 +23,10 @@ delete from Student
 DBCC CHECKIDENT ('Student', RESEED, 0);
 delete from Users
 DBCC CHECKIDENT ('Users', RESEED, 0);
+delete from Days
+DBCC CHECKIDENT ('Days', RESEED, 0);
+delete from DayTypes
+DBCC CHECKIDENT ('DayTypes', RESEED, 0);
 
 delete from TeacherCourseTheme
 DBCC CHECKIDENT ('TeacherCourseTheme', RESEED, 0);
@@ -48,6 +52,10 @@ delete from Student
 DBCC CHECKIDENT ('Student', RESEED, 0);
 delete from Users
 DBCC CHECKIDENT ('Users', RESEED, 0);
+delete from Days
+DBCC CHECKIDENT ('Days', RESEED, 0);
+delete from DayTypes
+DBCC CHECKIDENT ('DayTypes', RESEED, 0);
 
 insert into User_Types values ('Admin')
 insert into User_Types values ('User')
@@ -151,10 +159,14 @@ insert into Discipline values ('Информатика')
 insert into Discipline values ('География')
 insert into Discipline values ('Web-программирование')
 insert into Discipline values ('Основы проектирование баз данных')
-insert into Discipline values ('Каникулы')
-insert into Discipline values ('Выходной день')
-insert into Discipline values ('Праздничный день')
-insert into Discipline values ('Нет уроков')
+
+insert into DayTypes values ('Каникулы')
+insert into DayTypes values ('Выходной день')
+insert into DayTypes values ('Праздничный день')
+insert into DayTypes values ('Нет уроков')
+
+insert into Days values ('09.05.2022', 1, 3)
+insert into Days values ('09.05.2022', 2, 3)
 
 insert into TeacherDiscipline values (1,1)
 insert into TeacherDiscipline values (2,1)

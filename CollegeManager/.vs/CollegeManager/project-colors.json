@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "42ee6188-3c8c-4e26-87a6-972e329406f5": {
+      "ProjectGuid": "42ee6188-3c8c-4e26-87a6-972e329406f5",
+      "DisplayName": "CollegeServer",
+      "ColorIndex": 0
+    },
+    "1bbcf8e2-93a7-4d10-aae9-17f59912f722": {
+      "ProjectGuid": "1bbcf8e2-93a7-4d10-aae9-17f59912f722",
+      "DisplayName": "CollegeManager",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
