@@ -1,13 +1,15 @@
 ﻿using CollegeServer.Entities;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Threading.Tasks;
 
 namespace CollegeServer.Repositories
 {
     public class TeacherCourseRepository : Repository
     {
-        public static List<TeacherCourse> GetTeacherCourses()
+        public static async Task<List<TeacherCourse>> GetTeacherCourses()
         {
             SqlConnection cn = new SqlConnection(ConnectionString);
             cn.Open();
@@ -16,13 +18,13 @@ namespace CollegeServer.Repositories
             List<TeacherCourse> teacherCourse = new List<TeacherCourse>();
             while (reader.Read())
             {
-                teacherCourse.Add(new TeacherCourse(Convert.ToInt32(reader["Id"]), TeachersRepository.GetTeachersById(Convert.ToInt32(reader["Id_Teacher"])), CoursesRepository.GetCourseById(Convert.ToInt32(reader["Id_Course"])), Convert.ToInt32(reader["Progress"]), Convert.ToBoolean(reader["Certificate"])));
+                teacherCourse.Add(new TeacherCourse(Convert.ToInt32(reader["Id"]), TeachersRepository.GetTeachersById(Convert.ToInt32(reader["Id_Teacher"])), await CoursesRepository.GetCourseById(Convert.ToInt32(reader["Id_Course"])), Convert.ToInt32(reader["Progress"]), Convert.ToBoolean(reader["Certificate"])));
             }
-            cn.Close();
+            await cn.CloseAsync();
             return teacherCourse;
         }
 
-        public static TeacherCourse GetTeacherCourseById(int Id)
+        public static async Task<TeacherCourse> GetTeacherCourseById(int Id)
         {
             SqlConnection cn = new SqlConnection(ConnectionString);
             cn.Open();
@@ -31,9 +33,9 @@ namespace CollegeServer.Repositories
             TeacherCourse teacherCourse = null;
             while (reader.Read())
             {
-                teacherCourse = new TeacherCourse(Convert.ToInt32(reader["Id"]), TeachersRepository.GetTeachersById(Convert.ToInt32(reader["Id_Teacher"])), CoursesRepository.GetCourseById(Convert.ToInt32(reader["Id_Course"])), Convert.ToInt32(reader["Progress"]), Convert.ToBoolean(reader["Certificate"]));
+                teacherCourse = new TeacherCourse(Convert.ToInt32(reader["Id"]), TeachersRepository.GetTeachersById(Convert.ToInt32(reader["Id_Teacher"])), await CoursesRepository.GetCourseById(Convert.ToInt32(reader["Id_Course"])), Convert.ToInt32(reader["Progress"]), Convert.ToBoolean(reader["Certificate"]));
             }
-            cn.Close();
+            await cn.CloseAsync();
             return teacherCourse;
         }
     }

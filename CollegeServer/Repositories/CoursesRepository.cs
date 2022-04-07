@@ -8,7 +8,7 @@ namespace CollegeServer.Repositories
 {
     public class CoursesRepository : Repository
     {
-        public static List<Courses> GetCourses()
+        public static async Task<List<Courses>> GetCourses()
         {
             SqlConnection cn = new SqlConnection(ConnectionString);
             cn.Open();
@@ -19,11 +19,11 @@ namespace CollegeServer.Repositories
             {
                 courses.Add(new Courses(Convert.ToInt32(reader["Id"]), Convert.ToString(reader["Name"]), Convert.ToString(reader["Location"]), Convert.ToDateTime(reader["Start_Date"]), Convert.ToDateTime(reader["End_Date"]), Convert.ToInt32(reader["Target_Hours"]), Convert.ToInt32(reader["Passed_Hours"])));
             }
-            cn.Close();
+            await cn.CloseAsync();
             return courses;
         }
 
-        public static Courses GetCourseById(int Id)
+        public static async Task<Courses> GetCourseById(int Id)
         {
             SqlConnection cn = new SqlConnection(ConnectionString);
             cn.Open();
@@ -34,7 +34,7 @@ namespace CollegeServer.Repositories
             {
                 course = new Courses(Convert.ToInt32(reader["Id"]), Convert.ToString(reader["Name"]), Convert.ToString(reader["Location"]), Convert.ToDateTime(reader["Start_Date"]), Convert.ToDateTime(reader["End_Date"]), Convert.ToInt32(reader["Target_Hours"]), Convert.ToInt32(reader["Passed_Hours"]));
             }
-            cn.Close();
+            await cn.CloseAsync();
             return course;
         }
     }

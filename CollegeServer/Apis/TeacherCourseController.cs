@@ -4,6 +4,7 @@ using CollegeServer.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CollegeServer.Apis
 {
@@ -18,9 +19,9 @@ namespace CollegeServer.Apis
         }
 
         [HttpGet]
-        public IEnumerable<TeacherCourse> Get()
+        public async Task<ActionResult<IEnumerable<TeacherCourse>>> Get()
         {
-            return TeacherCourseRepository.GetTeacherCourses();
+            return await TeacherCourseRepository.GetTeacherCourses();
         }
     }
 }

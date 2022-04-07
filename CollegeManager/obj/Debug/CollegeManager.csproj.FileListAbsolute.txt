@@ -105,3 +105,4 @@ C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeMa
 C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.CopyComplete
 C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager.exe
 C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager.pdb
+C:\Users\Student-SP4\Documents\CollegeProject\CollegeManager\obj\Debug\CollegeManager.csproj.SuggestedBindingRedirects.cache

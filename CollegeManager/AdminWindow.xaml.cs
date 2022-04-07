@@ -18,7 +18,6 @@ namespace CollegeManager
         public AdminWindow()
         {
             InitializeComponent();
-            GetCourses();
         }
 
         public async void GetCourses()
@@ -49,6 +48,15 @@ namespace CollegeManager
             courseEditor.Title = "Редактирование курса";
             courseEditor.ShowDialog();
             LBCourses.Items.Refresh();
+        }
+
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            switch (Tabs.SelectedIndex)
+            {
+                case 1: this.Width = 1150; this.Height = 450; /*GetCourses();*/ break;
+                case 2: this.Width = 1385; this.Height = 485; break;
+            }
         }
     }
 }

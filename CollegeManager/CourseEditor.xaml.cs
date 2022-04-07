@@ -44,6 +44,7 @@ namespace CollegeManager
         {
             string result = await client.GetStringAsync("https://localhost:44384/teachers");
             teachersList = JsonConvert.DeserializeObject<List<Teachers>>(result);
+            //this.DataContext = teachersList;
         }
 
         private async void GetTeacherCourses()
@@ -55,14 +56,14 @@ namespace CollegeManager
         private async void GetUsers()
         {
             string result = await client.GetStringAsync("https://localhost:44384/users");
-            teachers = JsonConvert.DeserializeObject<List<Users>>(result);
-            this.DataContext = teachers.Where(u => u.Type.Id == 2);
+            teachers = JsonConvert.DeserializeObject<List<Users>>(result).Where(u => u.Type.Name == "Teacher" || u.Type.Name == "Admin").ToList();
+            this.DataContext = teachers;
         }
 
         public async Task GetThemes(int Id, bool update)
         {
             string result = await client.GetStringAsync("https://localhost:44384/course/themes/" + Id);
-            themes = JsonConvert.DeserializeObject<List<TeacherCourseTheme>>(result).Where(t => t.TeacherCourse.Id == Id).ToList();
+            themes = JsonConvert.DeserializeObject<List<TeacherCourseTheme>>(result).ToList();
             if (update)
             {
                 ThemesLB.SelectedValuePath = "Id";
@@ -154,7 +155,7 @@ namespace CollegeManager
             {
                 int userId = Convert.ToInt32(CB.SelectedValue);
                 var course = teacherCourses.FirstOrDefault(t => t.Teacher.User.Id == userId);
-                await GetThemes(course.Id, false);
+                //await GetThemes(course.Id, false);
                 TeacherCourseTheme theme = themes.FirstOrDefault(t => t.Id == userId);
                 if (course != null)
                 {
@@ -170,7 +171,8 @@ namespace CollegeManager
                 else
                 {
                     Teachers teacher = teachersList.FirstOrDefault(t => t.User.Id == userId);
-                    string request = JsonConvert.SerializeObject(new TeacherCourse(0, teacher, this.course, 0, false));
+                    course = new TeacherCourse(0, teacher, this.course, 0, false);
+                    string request = JsonConvert.SerializeObject(course);
                     await client.PostAsync("https://localhost:44384/teachercourse/", new StringContent(request, Encoding.UTF8, "application/json"));
 
                     request = JsonConvert.SerializeObject(new TeacherCourseTheme(0, course, TB.Text));

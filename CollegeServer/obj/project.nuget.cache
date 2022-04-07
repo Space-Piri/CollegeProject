@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gQWkavp2nKc/qiW9o1UBGg8Rb06msgGZjGQ5CQMIpglOkj8tZEFgq4Ls3pg13MGs8ZWWLqX2cnZWXER+RzQPTQ==",
+  "dgSpecHash": "U83L0+xA/XzC9uyK6VhcrE7SUVEQvKXUbh0qol4/ZK8PLnEzEKZSD3uQ66OatddByypVQIgFlV4Wx0Oeg6mx0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Student-SP4\\Documents\\CollegeProject\\CollegeServer\\CollegeServer.csproj",
   "expectedPackageFiles": [
@@ -12,8 +12,7 @@
     "C:\\Users\\Student-SP4\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Student-SP4\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
     "C:\\Users\\Student-SP4\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\Student-SP4\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
-    "C:\\Users\\Student-SP4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+    "C:\\Users\\Student-SP4\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

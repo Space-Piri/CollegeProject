@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CollegeManager"
         mc:Ignorable="d"
-        Title="Панель администратора" Height="450" Width="1150">
+        Title="Панель администратора" Height="460" Width="1385" ResizeMode="NoResize">
     <Canvas>
-        <TabControl TabStripPlacement="Left" SelectedIndex="1">
+        <TabControl x:Name="Tabs" TabStripPlacement="Left" SelectedIndex="1" SelectionChanged="TabControl_SelectionChanged">
             <TabItem Focusable="False">
                 <TabItem.Header>
                     <Label Content=""/>
@@ -131,6 +131,74 @@
                 <TabItem.Header>
                     <Label Content="Управление расписанием"/>
                 </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="850"/> 
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <ComboBox x:Name="GroupsCB" Margin="5"/>
+                    <DatePicker Name="DP" Grid.Column="1" Margin="5"/>
+                    <Grid Grid.Row="1" Grid.ColumnSpan="10" Grid.RowSpan="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="200"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="400"/>
+                        </Grid.RowDefinitions>
+                        <Border BorderThickness="1" BorderBrush="Black" Margin="5" CornerRadius="3">
+                            <StackPanel>
+                                <Label Content="Понедельник" Margin="5"/>
+                                <Border BorderBrush="Gray" BorderThickness="1" Margin="5,0,5,5" CornerRadius="5">
+                                    <StackPanel>
+                                        <Label Content="1 урок 8:20 - 9:05" Margin="5,0,5,0"/>
+                                        <ComboBox Width="160" Margin="5,0,5,5"/>
+                                    </StackPanel>
+                                </Border>
+                                <Border BorderBrush="Gray" BorderThickness="1" Margin="5,0,5,5" CornerRadius="5">
+                                    <StackPanel>
+                                        <Label Content="2 урок 9:15 - 10:00" Margin="5,0,5,0"/>
+                                        <ComboBox Width="160" Margin="5,0,5,5"/>
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Border>
+                        <Border BorderThickness="1" BorderBrush="Black" Margin="5" Grid.Column="1" CornerRadius="3">
+                            <StackPanel>
+                                <Label Content="Вторник" Margin="5"/>
+                            </StackPanel>
+                        </Border>
+                        <Border BorderThickness="1" BorderBrush="Black" Margin="5" Grid.Column="2" CornerRadius="3">
+                            <StackPanel>
+                                <Label Content="Среда" Margin="5"/>
+                            </StackPanel>
+                        </Border>
+                        <Border BorderThickness="1" BorderBrush="Black" Margin="5" Grid.Column="3" Grid.Row="0" CornerRadius="3">
+                            <StackPanel>
+                                <Label Content="Четверг" Margin="5"/>
+                            </StackPanel>
+                        </Border>
+                        <Border BorderThickness="1" BorderBrush="Black" Margin="5" Grid.Column="4" Grid.Row="0" CornerRadius="3">
+                            <StackPanel>
+                                <Label Content="Пятница" Margin="5"/>
+                            </StackPanel>
+                        </Border>
+                        <Border BorderThickness="1" BorderBrush="Black" Margin="5" Grid.Column="5" Grid.Row="0" CornerRadius="3">
+                            <StackPanel>
+                                <Label Content="Суббота" Margin="5"/>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
             </TabItem>
             <TabItem>
                 <TabItem.Header>
