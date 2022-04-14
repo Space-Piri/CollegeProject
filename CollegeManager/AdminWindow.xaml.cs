@@ -54,8 +54,8 @@ namespace CollegeManager
         {
             switch (Tabs.SelectedIndex)
             {
-                case 1: this.Width = 1150; this.Height = 450; /*GetCourses();*/ break;
-                case 2: this.Width = 1385; this.Height = 485; StartCouples(); break;
+                case 1: this.Width = 1150; this.Height = 450; GetCourses(); break;
+                case 2: this.Width = 1390; this.Height = 483; StartCouples(); break;
             }
         }
 

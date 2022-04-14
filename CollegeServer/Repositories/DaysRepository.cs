@@ -16,7 +16,7 @@ namespace CollegeServer.Repositories
             Days day = null;
             while (reader.Read())
             {
-                day = new Days(Convert.ToInt32(reader["Id"]), Convert.ToDateTime(reader["Date"]), DayTypesRepository.GetDayTypeById(Convert.ToInt32(reader["Id_DayType"])));
+                day = new Days(Convert.ToInt32(reader["Id"]), Convert.ToDateTime(reader["Date"]), await GroupsRepository.GetSGroupById(Convert.ToInt32(reader["Id_Group"])) , await DayTypesRepository.GetDayTypeById(Convert.ToInt32(reader["Id_DayType"])));
             }
             await cn.CloseAsync();
             return day;
