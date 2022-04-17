@@ -14,15 +14,22 @@ namespace CollegeServer.Apis
     public class TeacherCourseThemeController : ControllerBase
     {
         [HttpGet("{id}")]
-        public IEnumerable<TeacherCourseTheme> Get(int Id)
+        public async Task<ActionResult<IEnumerable<TeacherCourseTheme>>> Get(int Id)
         {
-            return TeacherCourseThemeRepository.GetTeacherCourseThemes().Where(t => t.TeacherCourse.Course.Id == Id);
+            var themes = await TeacherCourseThemeRepository.GetTeacherCourseThemes();
+            return themes;
         }
 
         [HttpPut]
         public void Update(TeacherCourseTheme teacherCourseTheme)
         {
-            TeacherCourseThemeService.UpdateCourse(teacherCourseTheme);
+            TeacherCourseThemeService.UpdateTeacherCourseTheme(teacherCourseTheme);
+        }
+
+        [HttpPost]
+        public void Add(TeacherCourseTheme teacherCourseTheme)
+        {
+            TeacherCourseThemeService.AddTeacherCourseTheme(teacherCourseTheme);
         }
     }
 }

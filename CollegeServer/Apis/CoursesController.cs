@@ -4,6 +4,7 @@ using CollegeServer.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace CollegeServer.Apis
@@ -13,15 +14,15 @@ namespace CollegeServer.Apis
     public class CoursesController : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<Courses> Get()
+        public async Task<ActionResult<IEnumerable<Courses>>> Get()
         {
-            return CoursesRepository.GetCourses();
+            return await CoursesRepository.GetCourses();
         }
 
         [HttpPost]
         public void Post(Courses course)
         {
-            CoursesService.AddCourse(course);
+             CoursesService.AddCourse(course);
         }
 
         [HttpPut]

@@ -2,12 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Threading.Tasks;
 
 namespace CollegeServer.Repositories
 {
     public class TeacherCourseThemeRepository : Repository
     {
-        public static List<TeacherCourseTheme> GetTeacherCourseThemesById(int Id)
+        public static async Task<List<TeacherCourseTheme>> GetTeacherCourseThemesById(int Id)
         {
             SqlConnection cn = new SqlConnection(ConnectionString);
             cn.Open();
@@ -16,13 +17,13 @@ namespace CollegeServer.Repositories
             List<TeacherCourseTheme> teacherCourseTheme = new List<TeacherCourseTheme>();
             while (reader.Read())
             {
-                teacherCourseTheme.Add(new TeacherCourseTheme(Convert.ToInt32(reader["Id"]), TeacherCourseRepository.GetTeacherCourseById(Convert.ToInt32(reader["Id_TeacherCourse"])), Convert.ToString(reader["Name"])));
+                teacherCourseTheme.Add(new TeacherCourseTheme(Convert.ToInt32(reader["Id"]), await TeacherCourseRepository.GetTeacherCourseById(Convert.ToInt32(reader["Id_TeacherCourse"])), Convert.ToString(reader["Name"])));
             }
-            cn.Close();
+            await cn.CloseAsync();
             return teacherCourseTheme;
         }
 
-        public static List<TeacherCourseTheme> GetTeacherCourseThemes()
+        public static async Task<List<TeacherCourseTheme>> GetTeacherCourseThemes()
         {
             SqlConnection cn = new SqlConnection(ConnectionString);
             cn.Open();
@@ -31,9 +32,9 @@ namespace CollegeServer.Repositories
             List<TeacherCourseTheme> teacherCourseTheme = new List<TeacherCourseTheme>();
             while (reader.Read())
             {
-                teacherCourseTheme.Add(new TeacherCourseTheme(Convert.ToInt32(reader["Id"]), TeacherCourseRepository.GetTeacherCourseById(Convert.ToInt32(reader["Id_TeacherCourse"])), Convert.ToString(reader["Name"])));
+                teacherCourseTheme.Add(new TeacherCourseTheme(Convert.ToInt32(reader["Id"]), await TeacherCourseRepository.GetTeacherCourseById(Convert.ToInt32(reader["Id_TeacherCourse"])), Convert.ToString(reader["Name"])));
             }
-            cn.Close();
+            await cn.CloseAsync();
             return teacherCourseTheme;
         }
     }
