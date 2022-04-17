@@ -16,7 +16,7 @@ namespace CollegeServer.Apis
         [HttpGet("{id}")]
         public async Task<ActionResult<IEnumerable<TeacherCourseTheme>>> Get(int Id)
         {
-            var themes = await TeacherCourseThemeRepository.GetTeacherCourseThemes();
+            var themes = await TeacherCourseThemeRepository.GetTeacherCourseThemesById(Id);
             return themes;
         }
 

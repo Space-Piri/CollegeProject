@@ -12,7 +12,7 @@ namespace CollegeServer.Repositories
         {
             SqlConnection cn = new SqlConnection(ConnectionString);
             cn.Open();
-            SqlCommand cmd = new SqlCommand("select * from TeacherCourseTheme where Id_TeacherCourse = " + Id, cn);
+            SqlCommand cmd = new SqlCommand("select * from TeacherCourseTheme join TeacherCourse on TeacherCourse.Id = TeacherCourseTheme.Id_TeacherCourse where Id_Course = " + Id, cn);
             var reader = cmd.ExecuteReader();
             List<TeacherCourseTheme> teacherCourseTheme = new List<TeacherCourseTheme>();
             while (reader.Read())
